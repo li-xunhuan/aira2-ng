@@ -11,7 +11,7 @@ sudo docker run -d \
 -v /DOWNLOAD_DIR:/data \
 -v /CONFIG_DIR:/config \
 -e SECRET=SECRET_CODE \
-getnas/aria2
+wjg1101766085/aira2-ng:0.0.1
 ```
 
 > 注意：如果不需要浏览下载目录，则去掉 `-p 6888:8080` 参数。  
